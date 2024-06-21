@@ -36,10 +36,10 @@ export function WebsiteRealtimePage({ websiteId }) {
           <RealtimeUrls data={data} />
           <RealtimeLog data={data} />
         </GridRow>
-        <GridRow columns="one-two">
+        {/* <GridRow columns="one-two">
           <RealtimeCountries data={countries} />
           <WorldMap data={countries} />
-        </GridRow>
+        </GridRow> */}
       </Grid>
     </WebsiteProvider>
   );

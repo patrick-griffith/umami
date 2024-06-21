@@ -28,10 +28,10 @@ export default function WebsiteTableView({ websiteId }: { websiteId: string }) {
         <OSTable {...tableProps} />
         <DevicesTable {...tableProps} />
       </GridRow>
-      <GridRow columns="two-one">
+      {/* <GridRow columns="two-one">
         <WorldMap data={countryData} />
         <CountriesTable {...tableProps} onDataLoad={setCountryData} />
-      </GridRow>
+      </GridRow> */}
       <GridRow columns="one-two">
         <EventsTable {...tableProps} />
         <EventsChart websiteId={websiteId} />
