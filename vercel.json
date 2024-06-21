@@ -1,3 +1,8 @@
 {
-    
+    "rewrites": [
+    {
+      "source": "/stats/:match*",
+      "destination": "https://dc-umami-analytics.vercel.app/:match*"
+    }
+  ]
 }
